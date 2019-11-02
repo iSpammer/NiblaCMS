@@ -84,7 +84,7 @@ class UserController extends Controller
 
             $userPhoto = public_path('img/profile/') . $currentPhoto;
             if (file_exists($userPhoto)) {
-                @unlink($userPhoto);
+              //  @unlink($userPhoto);
             }
         }
 
