@@ -81,7 +81,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Nibla Studios
+                        <div style="width:image width px; font-size:80%; text-align:center;">
+                            <img src="/img/nibla.png" alt="alternate text" width="40%" height="40%" style="padding-bottom:0.5em;" />
+                            <br>
+                            Enterprise Online System</div>
                 </div>
 
                 <div class="links">

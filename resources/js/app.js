@@ -176,9 +176,9 @@ const app = new Vue({
         printme() {
             window.print();
         },
-        // searchit: _.debounce(() => {
-        //     Fire.$emit('searching');
-        // },1000),
+        searchit: _.debounce(() => {
+            Fire.$emit('searching');
+        },1000),
         listenForChanges() {
             Echo.channel('contracts')
                 .listen('ContractPublished', Contract => {

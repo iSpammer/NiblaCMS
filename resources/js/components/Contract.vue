@@ -16,7 +16,7 @@
           <!-- /.card-header -->
           <div class="card-body table-responsive p-0">
             <table class="table table-hover">
-              <thead class="thead-dark">
+              <thead class="">
                 <tr>
                   <th>ID</th>
                   <th>Name</th>
